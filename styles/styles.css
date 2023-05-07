@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#titulo{
+    text-align: center;
+    background-color: rgb(93, 93, 196);
+    margin: 30px;
+    padding: 15px;
+}
+
+.mensaje-emergente {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 999;
+}
+
+.mensaje-emergente button {
+    display: block;
+    margin: 20px auto 0;
+}
+
+#mensajeDolar {
+    color: #ccc;
+    text-decoration: underline;
+    background-color: rgb(93, 93, 196);
+}
